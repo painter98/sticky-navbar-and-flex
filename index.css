@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+}
+.title{
+    color:white;
+    background-color: black;
+    width:97vw;
+    position:sticky;
+    top:0px;
+    display:flex;
+    flex-flow:row wrap;
+    padding:20px;
+    justify-content: space-between;
+}
+.name{
+    width:20rem;
+    display: flex;
+    /*border:1px solid white;*/
+    justify-content: space-between;
+}
+.container{
+    display:flex;
+    padding:20px 40px 20px 20px;
+    gap:60px;
+}
+.item > img{
+    width:50vw;
+    height:100vh;
+}
+.item > button{
+    height:30px;
+    width:100px;
+    color:rgb(199, 197, 197);
+    background-color: black;
+}
